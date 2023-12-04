@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: go-component-sample
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/mmorhun-org/test/go-application-sample/go-component-sample@sha256:914e546ddd884231086904abd8d053736e1de4d257b98040043bd6be1f21af7d
         name: my-go
         ports:
         - containerPort: 8081
